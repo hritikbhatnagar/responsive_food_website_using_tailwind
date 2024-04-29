@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/03c9b2c9ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="p33.css">
+</head>
+
+<body>
+    <nav class="bg-slate-400 flex justify-between shadow-lg   ">
+        <div class="box1  w-[130px]">
+            <img src="images/logo.png" class="w-[100%] p-5 " />
+        </div>
+        <div class="box2  hidden md:block ">
+            <ul class="flex  h-[100%] justify-center items-center gap-5 text-xl">
+              <a href="#t" class="hover:border-2 p-2 hover:bg-black hover:text-white rounded-md"><li>Home</li></a>
+              <a href="#i" class="hover:border-2 p-2 hover:bg-black hover:text-white rounded-md"> <li>About</li></a>
+              <a href="#m" class="hover:border-2 p-2 hover:bg-black hover:text-white rounded-md"> <li>Menu</li></a>
+              <a href="#c" class="hover:border-2 p-2 hover:bg-black hover:text-white rounded-md"> <li>Gallery</li></a>
+
+              <a href="#o" class="hover:border-2 p-2 hover:bg-black hover:text-white rounded-md"> <li>Order</li></a>
+            </ul>
+        </div>
+        <div class="box3  hidden md:block">
+            <div class="box4 flex justify-center items-center h-[100%] gap-4 p-5">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+        </div>
+        <div class="box5 md:hidden block">
+            <div class="box6 h-[100%] flex justify-center items-center p-5">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+    </nav>
+    
+    <hr />
+    <div  class="box7 tim w-screen bg-black text-blue-300 text-2xl text-center space-y-2 hidden">
+
+      <a href="#t">  <li class="list-none cursor-pointer hover:underline hover:decoration-orange-300 hover:text-xl">Home</li></a>
+       <a href="#i"> <li class="list-none cursor-pointer hover:underline hover:decoration-orange-300 hover:text-xl">About</li></a>
+       <a href="#m"> <li class="list-none cursor-pointer hover:underline hover:decoration-orange-300 hover:text-xl ">Menu</li></a>
+       <a href="#c"> <li class="list-none cursor-pointer hover:underline hover:decoration-orange-300 hover:text-xl">Gallery</li></a>
+       
+       <a href="#o"> <li class="list-none cursor-pointer hover:underline hover:decoration-orange-300 hover:text-xl ">Order</li></a>
+
+    </div>
+    <div id="t" class="box8 bg-yellow-100 w-full flex flex-col md:flex-row ">
+        <div class="box9 w-[100%]  p-3 md:w-[50%]">
+            <img draggable="false" class="size-[100%]" src="images/main_img.png" />
+        </div>
+        <div class="box10  w-[100%]  p-3 md:w-[50%]">
+            <h1 class=" p-2 md:p-5 text-4xl font-bold font-serif tracking-wide">Get  fresh <i class="text-orange-300"> food </i> in  a  way
+            </h1>
+            <p class="md:p-6 p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque molestias dolor
+                mollitia quaerat
+                vitae dignissimos quisquam beatae, aliquam rem, eum asperiores? Animi soluta veritatis, omnis adipisci
+                asperiores nostrum illo accusamus pariatur veniam ab voluptate. Alias, explicabo omnis dolorem non autem
+                accusamus voluptatum? Maiores aut possimus illum culpa, aliquam doloremque voluptate, sequi eum ipsa
+                fugit eaque voluptates eos et dolorem aspernatur cumque nesciunt odit velit itaque, rem nulla facere.
+                Ipsa at architecto libero sequi quae aliquid quidem. Deserunt labore porro voluptas!</p>
+            <button class="p-4 md:p-6 mx-6 rounded-lg bg-emerald-300">Book now</button>
+        </div>
+    </div>
+    <div class="box11 w-screen md:flex    md:justify-center " id="i">
+        <div class="box12   w-[100%] md:w-[50%]">
+            <img draggable="false" src="images/Food-Plate.png" class="h-[100%]   " />
+        </div>
+        <div class="box13    md:w-[45%]">
+            <h1 class="p-3 text-5xl underline decoration-lime-200"><small class="text-orange-300">About </small>us</h1>
+            <p class=" p-3 text-xl font-bold">why choose us?</p>
+            <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequatur voluptatum
+                quod esse
+                laudantium laborum, ipsam quisquam atque quas aliquid in iure maiores rem earum quia. Iste molestiae
+                accusantium tempora! Excepturi soluta doloribus optio beatae magni esse incidunt architecto blanditiis,
+                ad praesentium omnis fuga ipsum repellendus cupiditate numquam nemo provident eveniet laborum officia
+                molestias a, est ut. Modi, adipisci repudiandae.
+            </p>
+            <button class="bg-yellow-200 m-2 text-red-900 p-3 rounded-xl cursor-pointer">order now</button>
+        </div>
+    </div>
+    <div class="box14 w-screen " id="m">
+        <div class="box15 text-center m-2 text-orange-600 text-4xl">Our <i class="underline decoration-yellow-300">Menu</i></div>
+        <div class="box16 flex flex-wrap p-3 gap-6 justify-center">
+            <div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2 ">
+                <div class="b1 ">
+
+
+                    <img draggable="false" class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+                        src="images/buger.jpg" />
+                </div>
+                <div class="b2 flex flex-col items-center ">
+                    <h1 class="m-2 text-green-400 text-xl font-medium">Burger</h1>
+                    <p class="m-2 font-bold">$20.00</p>
+                    <div class="box flex m-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2  ">
+                <div class="b1">
+                    <img draggable="false" class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+                        src="images/pasta.jpg" />
+                </div>
+                <div class="b2 flex flex-col items-center ">
+                    <h1 class="m-2 text-green-400 text-xl font-medium">Pasta</h1>
+                    <p class="m-2 font-bold">$20.00</p>
+                    <div class="box flex m-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2  ">
+                <div class="b1">
+                    <img draggable="false" class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+                        src="images/lasagna.webp" />
+                </div>
+                <div class="b2 flex flex-col items-center ">
+                    <h1 class="m-2 text-green-400 text-xl font-medium">Lasagna</h1>
+                    <p class="m-2 font-bold">$20.00</p>
+                    <div class="box flex m-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2  ">
+                <div class="b1">
+                    <img  draggable="false" class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+                        src="images/chocolate_Drink.jpg" />
+                </div>
+                <div class="b2 flex flex-col items-center ">
+                    <h1 class="m-2 text-green-400 text-xl font-medium">Drink</h1>
+                    <p class="m-2 font-bold">$20.00</p>
+                    <div class="box flex m-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2  ">
+                <div class="b1">
+                    <img draggable="false" class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+                        src="images/pizza.jpg" />
+                </div>
+                <div class="b2 flex flex-col items-center ">
+                    <h1 class="m-2 text-green-400 text-xl font-medium">Pizza</h1>
+                    <p class="m-2 font-bold">$20.00</p>
+                    <div class="box flex m-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2  ">
+                <div class="b1">
+                    <img draggable="false" class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+                        src="images/Hot_dog.jpg" />
+                </div>
+                <div class="b2 flex flex-col items-center ">
+                    <h1 class="m-2 text-green-400 text-xl font-medium">Hot Dog</h1>
+                    <p class="m-2 font-bold">$20.00</p>
+                    <div class="box flex m-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+                </div>
+            </div>
+            <div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2  ">
+                <div class="b1">
+                    <img class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+                        src="images/juse.jpg" />
+                    <div class="b2 flex flex-col items-center ">
+                        <h1 class="m-2 text-green-400 text-xl font-medium">Juice</h1>
+                        <p class="m-2 font-bold">$20.00</p>
+                        <div class="box flex m-2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+                    </div>
+                </div>
+                
+</div>
+<div class="b1 border-2 shadow-lg h-[320px] w-[240px] p-2  ">
+    <div class="b1">
+        <img draggable="false" class="h-[150px] w-[220px] rounded-md hover:brightness-110 cursor-pointer"
+            src="images/biryani.webp" />
+        <div class="b2 flex flex-col items-center ">
+            <h1 class="m-2 text-green-400 text-xl font-medium">Briyani</h1>
+            <p class="m-2 font-bold">$20.00</p>
+            <div class="box flex m-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <button class="bg-black text-white px-6 rounded-md m-2">Order Now</button>
+        </div>
+    </div>
+    
+</div>
+</div>
+<div class="box17 bg-slate-300 min-h-screen p-3" id="c">
+    <div class="b1 flex justify-center"><h1 class="text-5xl">Our <i class="text-orange-300 underline decoration-green-300">Gallery</i></h1>
+    </div>
+    <div class="b2 flex flex-wrap justify-center  gap-4 m-3">
+        <div class="b  ">
+            <img draggable="false" class="hover:scale-105 rounded-tl-2xl  rounded-br-2xl  cursor-pointer w-[450px]  md:size-[400px] " src="images/gallary_1.jpg"/>
+    
+        </div>
+        <div class="b4  ">
+            <img draggable="false" class="hover:scale-105 cursor-pointer w-[450px] rounded-tl-2xl  rounded-br-2xl hover:border-b-2 md:size-[400px] hover:border-t-2 border-red-950" src="images/gallary_2.jpg"/>
+    
+        </div>
+        <div class="b4 relative ">
+            <img  draggable="false" class="hover:scale-105 cursor-pointer w-[450px] rounded-tl-2xl  rounded-br-2xl  md:size-[400px]" src="images/gallary_3.jpg"/>
+    
+        </div>
+        <div class="b4 relative">
+            <img draggable="false" class="hover:scale-105 cursor-pointer w-[450px]  rounded-tl-2xl  rounded-br-2xl md:size-[400px] " src="images/gallary_4.jpg"/>
+    
+        </div>
+        <div class="b4 relative   ">
+            <img draggable="false" class="hover:scale-105 cursor-pointer w-[450px]  rounded-tl-2xl  rounded-br-2xl md:size-[400px] " src="images/gallary_5.jpg"/>
+    
+        </div>
+        <div class="b4 relative  ">
+            <img draggable="false" class="hover:scale-105 rounded-tl-2xl  rounded-br-2xl cursor-pointer w-[450px]  md:size-[400px] " src="images/gallary_6.jpg"/>
+    
+        </div>
+       
+    </div>
+</div>
+<div class="box19 min-h-screen" id="o">
+    <h1 class="text-center text-5xl m-2"><i class="text-orange-400 underline decoration-red-400">Order </i>Now</h1>
+<div class="b20 md:flex md:justify-between">
+<div class="b1 min-w-[300px]  md:w-[1100px] md:h-[500px]  m-3">
+    <img class="w-[100%] h-[100%]" src="images/order_image.png"/>
+</div>
+<div class="box20 flex justify-center items-center md:w-[300px] md:h-[400px]">
+    <button class="bg-black text-white p-4 m-2 rounded-2xl hover:-translate-y-3 relative hover:shadow-2xl">ORDER NOW
+       <img draggable="false" class="absolute top-1 animate-bounce  left-1 size-4" src="images/record-button.png"/>
+    </button>
+</div>
+
+</div>
+</div>
+<div class="box23 bg-gray-500 flex justify-center gap-3 flex-wrap w-full">
+    <div class="b1  p-3 m-2 w-[280px] h-[220px] text-center space-y-2">
+        <h1 class="text-2xl font-bold underline decoration-red-500">location</h1>
+        <li class="list-none">Srilanka</li>
+        <li class="list-none">USA</li>
+        <li class="list-none">India</li>
+        <li class="list-none">Japan</li>
+        <li class="list-none">Italy</li>
+    </div>
+    <div class="b2 p-3 m-2 w-[280px] h-[220px] text-center space-y-2">
+        <h1 class="text-2xl font-bold underline decoration-red-500">Quick link</h1>
+    <a href="#t">   <li class="list-none cursor-pointer">Home</li></a> 
+        <a href="#i"> <li class="list-none cursor-pointer">About</li></a>
+       <a href="#m">  <li class="list-none cursor-pointer">Menu</li></a>
+        <a href="#c"> <li class="list-none cursor-pointer">Gallery</li></a>
+        <a href="#o"> <li class="list-none cursor-pointer">Order</li></a>
+    </div>
+    <div class="b3   p-3 m-2 w-[280px] h-[200px] text-center space-y-2">
+        <h1 class="text-2xl font-bold underline decoration-red-500">Contact</h1>
+        <li class="list-none">+91-9149089673</li>
+        <li class="list-none">+91-9149089674</li>
+        <li class="list-none">hritikbhatnagar123@gmail.com</li>
+        <li class="list-none">hritikbhatnagarfood@gmail.com</li>
+       
+    </div>
+    <div class="p-3  m-2 w-[280px] h-[170px] text-center space-y-2">
+        <h1 class="text-2xl font-bold underline decoration-red-500">Our services</h1>
+        <li class="list-none">Fast-Delivery</li>
+        <li class="list-none">Easy-payment</li>
+        <li class="list-none">Open 24 * 7</li>
+    </div>
+    
+</div>
+<marquee class="box bg-black text-yellow-200 text-fuchsia-400 text-xl" >Made By HSL 😎</marquee>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".box6 i").click(function () {
+            $(".box7").slideToggle(1000);
+        });
+        $(".tim a").click(function(){
+            $(".box7").slideUp(1000);
+        })
+    });
+</script>
+
+</html>
